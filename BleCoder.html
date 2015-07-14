@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+ <head>
+ <title>BleCoder</title>
+ <link href="images/icon.ico" rel="shortcut icon"/> 
+ 
+
+ <meta charset="utf-8" />
+ <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1" />
+ <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+ <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+ <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+ <link rel="stylesheet" href="css/main.css">
+ <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.min.css">
+ <link rel="stylesheet" type="text/css" href="css/animate.css">
+  </head>
+
+<body>
+<div id="wrapper">
+		<div id="menuContainer"><!--Start of menu-container-->
+			<div id="logo"> <i class="fa fa-file-code-o"></i> BleCoder</div>
+
+			<div id="runDiv">
+				<button id="runButton"><span class="animated infinite rubberBand">RUN</span></button>
+			</div>
+		<ul id="toggleMenu">
+			<li class="toggle selected">HTML</li>
+			<li class="toggle ">CSS</li>
+			<li class="toggle selected" style="border: none" >RESULT</li>
+		</ul>
+		
+	</div><!--end of menu-container-->
+	<div id="break"></div>
+
+<!--html, CSS, js and Run Panel-->
+
+<div class="panel" id="HTMLPanel">
+	<div class="panelLabel">HTML</div>
+		<textarea id="htmlScript"><!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+</body>
+</html>
+</textarea>
+
+</div>
+<div class="panel" id="CSSPanel">
+	<div class="panelLabel">CSS</div>
+		<textarea id="cssScript">html {
+background-color:; 
+}
+		</textarea>
+
+</div>
+
+</div>
+<div class="panel" id="RESULTPanel">
+	<div class="panelLabel">RESULT</div>
+		<iframe id="resultFrame">example</iframe>
+
+</div>
+
+
+
+</div><!--End Of Wrapper Div-->
+<script src="js/script.js"></script>
+</body>
+</html>
